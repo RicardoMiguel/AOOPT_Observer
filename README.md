@@ -12,5 +12,5 @@ Create one or more MoneyBags filled with several MoneyUnits in different currenc
 
 
 Hint:
-1 Each method changing the exchange ratio should also call a setChanged() method (inherited from the Observable class) before the notifyObservers method (also inherited from the Observable class) is called.
-2 Managing the observers (e.g. specifying which observer observes which observable - in other words: registering observers to the observable) should be done using methods inherited from the Observable class (addObserver, ...).
+* Each method changing the exchange ratio should also call a setChanged() method (inherited from the Observable class) before the notifyObservers method (also inherited from the Observable class) is called.
+* Managing the observers (e.g. specifying which observer observes which observable - in other words: registering observers to the observable) should be done using methods inherited from the Observable class (addObserver, ...).
